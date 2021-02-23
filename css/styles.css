@@ -22,3 +22,75 @@ img {
   max-width: 100%;
   height: auto;
 }
+
+.container {
+  max-width: 1150px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+/* SITENAV */
+
+.sitenav {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.sitenav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* LOGO */
+
+.logo-img {
+  display: block;
+}
+
+.sitenav-list {
+  display: flex;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  font-size: 13px;
+  line-height: 15.2px;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 1.5px;
+}
+
+.sitenav-item {
+  margin-left: 25px;
+}
+
+.sitenav-item-bordered {
+  margin-left: 35px;
+}
+
+.sitenav-link {
+  color: #837d88;
+  text-decoration: none;
+  transition: background-color 0.3s ease,
+    color 0.3s ease;
+}
+
+.sitenav-link:hover {
+  color: #2c2830;
+}
+
+.sitenav-item-bordered .sitenav-link {
+  display: block;
+  padding: 12px 28px;
+  border: 2px solid #2c2830;
+  color: #2c2830;
+}
+
+.sitenav-item-bordered .sitenav-link:hover {
+  background-color: #2c2830;
+  color: #fff;
+}
